@@ -1,0 +1,319 @@
+
+nav{
+   height: 60px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 20px;
+
+
+}
+
+
+ul{
+   position: relative;
+   top: 0px;
+   display: flex;
+   justify-content: right;
+   
+}
+li{
+
+ list-style-type: none;
+
+ 
+  
+}
+.a{
+   display: block;
+   color: white;
+   margin-top: -60px;
+   margin-right: 40px;
+      font-size: 70px;
+    text-decoration: none;
+   font-family: "Sofia", sans-serif;
+   font-size: 20px;
+}
+.namme{
+   font-size: 40px;
+}
+.a:hover{
+   width: 75px;
+   height: 40px;
+   padding: 5px;
+    border-radius: 25px; 
+   background-color:rgb(104, 55, 55);
+   color: white;
+   border: 1px solid red;
+   box-sizing: border-box; 
+
+}
+.app{
+   margin-top: 5px;
+}
+.img1{
+ margin-left: 900px;
+ border: 4px solid ;
+   border-radius: 20px;
+   box-shadow: 2px 4px 6px white;
+   transition: all;
+   transition: 1s;
+  }
+  
+   
+.container1{
+   background-color: black;
+   border: 2px solid black;
+
+   border-radius: 20px;
+}
+.photo{
+   margin-top: -400px;
+   margin-left: 50px;
+   color: white;
+}
+font{
+   color: rgb(178, 56, 182);
+}
+pre{
+   font-family:"Sofia", sans-serif ;
+   font-size: 20px;
+}
+
+button{
+   width: 100px;
+   height: 40px;
+   margin-left: 90px;
+   border: 2px solid rgb(170, 89, 89);
+   border-radius: 5px;
+   background-color:rgb(104, 55, 55);
+   color: white;
+   border-radius: 20px;
+   font-size: 15px;
+   
+}
+button:hover{
+   background-color: yellowgreen;
+   color: black;
+} 
+.but{
+   margin:5px;
+  
+}
+.container2{
+  
+   width: 1430px;
+   height: 600px;
+   background-color: white;
+   color:black;
+   border: 2px solid black;
+   border-radius: 20px;
+   margin-top: 230px;
+   margin-left: 40px;
+}
+.img2{
+   
+      margin-top: 100px;
+      margin: 50px;
+      border: 4px solid grey ;
+      border: 2px solid black;
+      border-radius: 20px;
+      box-shadow: 10px 12px 18px rgb(126, 96, 126);
+      transition: all;
+      transition: 1s;
+      margin-left: 900px;
+  }
+      
+   .img2:hover{
+      transform: scale(1.1);
+   }
+
+.peofessional{
+   width: 500px;
+   height: 100px;
+   margin-left: 50px;
+   margin-top: -300px;
+  
+}
+
+.icons1{
+   display: flex;
+         background-color: black;
+         width: 100px;
+         margin-left: 100px;
+         
+
+}
+.my{
+   margin-left: 500px;;
+}
+.sing{
+  
+   margin-left: -50px;
+   margin-top: -2px;
+ 
+}
+.pname{
+   color: black;
+   margin-top: -28px;
+   margin-left: 80px;
+   
+}
+#about{
+   font-family:"Trirong", serif; ;
+   margin-top: 100px;
+  
+}
+.over{
+   margin-right: 200px;
+}
+.box1{
+   color: black;
+}
+.Services{
+   width: 100%;
+   height: 800px;
+   border: 2px solid black;
+   border-radius:20px;
+   margin-top: 20px;
+   background-color: black;
+
+
+
+}
+
+
+
+
+.img-logo{
+   width: 100px;
+   height: 100px;
+   /* border: 5px solid red; */
+   color: white;
+}
+
+
+.box{
+   display: flex;
+   justify-content: space-evenly;
+   border: 2px solid black;
+   margin-left: 60px;
+   margin-top: 50px;
+   color:white ;
+
+
+}
+
+
+.item{
+   /* border: 1px solid white; */
+   margin: 40px;
+   margin-top: 30px;
+}
+
+
+.heading{
+   text-align: center;
+ 
+   font-size: 1.3em;
+   color: white;
+}
+
+.air{
+   text-align: center;
+   margin-top: -40px;
+   font-size: 15px;
+   color: white;
+
+}
+
+.name{
+     color: white;
+    font-size: 20px;
+    margin-top: 0px 12px;
+    margin: -4px
+}
+
+
+ .footer{
+   display: flex;
+   justify-content: space-around;
+   width: 1500px;
+   height: 400px;
+ border: 2px solid black;
+ border-radius: 20px;
+   margin-top: 30px;
+   background-color: gray;
+   
+   
+}
+
+.footer .line-1{
+   margin: 120px;
+}
+
+.footer .line-1 .main{
+   font-size: 1.2rem;
+   color: var(--font-color);
+   font-weight: bold;
+   font-family: "Sofia", sans-serif;
+   
+}
+
+.footer .line-1 p{
+   font-size: 1rem;
+   margin: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* social media */
+
+.social-media{
+   display: flex;
+   width: 260px;
+   /* height: 600px; */
+   margin-left: 650px;
+   margin-top: -300px;
+
+   
+}
+
+.social-media .icon-1{
+   width: 53px;
+   height: 20px;
+   margin-top: 200px;
+
+}
+
+.social-media .icon-1 .you{
+   margin: 5px;
+}
+
+.social-media .icon-1 .pin{
+   margin-left: 3px;
+}
+
+
+.Copyright{
+   margin-left: 570px;
+   margin-top: 50px;
+   font-size: 1.1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #792323;
+} 
+
+body{
+
+   /* background-image: url(img/cop.jpeg); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+   
+}
+.po{
+color: white;
+margin-left: 30px;
+font-size: 30px;
+margin-top: 10px;
+}

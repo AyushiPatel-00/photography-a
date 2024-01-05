@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+nav{
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 20px;
+
+
+}
+
+
+
+ul{
+   
+   display: flex;
+   justify-content: right;
+   
+}
+li{
+
+ list-style-type: none;
+
+ 
+  
+}
+.a{
+   color: white;
+   margin-right: 40px;
+      font-size: 70px;
+    text-decoration: none;
+   font-family: "Sofia", sans-serif;
+   font-size: 20px;
+}
+
+.a:hover{
+   width: 200px;
+   height: 200px;
+   padding: 15px;
+   border-radius: 25px;
+   background-color:rgb(104, 55, 55);
+   color: white;
+   border: 1px solid red;
+   box-sizing: border-box;
+
+}
+
+.con{
+            width: 400px;
+            height: 400px;
+            border: 2px solid rgb(140, 130, 113) ;
+            margin-left: 900px;
+            margin-top: -165px;
+           background-color:rgb(118, 110, 103);
+        }
+        .contact{
+            width: 400px;
+            height: 400px;
+            margin-top: -450px;
+            border: 2px solid black;
+            background-color: black;
+            border: 2px solid rgb(22, 21, 21);
+            margin-left: 850px;
+            transition: all;
+                transition: 1s;
+                box-shadow: 4px 8px 10px rgb(69, 126, 131);
+
+            
+        }
+        .contact:hover{
+            transform: scale(1.1);
+        }
+       
+        form{
+            margin-top: 50px;
+            margin-left: 120px;
+            font-size: 20px;
+            font-family: "Sofia", sans-serif;
+            color: white;
+            background-color: black;
+        }
+        .need{
+            width: 1500px;
+            height: 600px;
+            border: 2px solid black;
+            margin-top: 30px;
+            background-image: url(sap.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+            /* background-color:grey; */
+        }
+        .h1{
+         margin-top: 50px;
+         margin-left: 5px;
+            width: 600px;
+            color:black;
+        }
+        h2{
+            margin-left: -70px;
+            margin-top: -40px;
+        }
+        button{
+            width: 250px;
+            height: 30px;
+            border: 2px solid gray;
+            border-radius: 30px;
+            margin-left: -50px;
+            font-size: 20px;
+        }
+        button:hover{
+   background-color: aquamarine;
+   color: black;
+} 
+
+.footer{
+   display: flex;
+   justify-content: space-around;
+   width: 1500px;
+   height: 400px;
+ border: 2px solid black;
+ border-radius: 20px;
+   margin-top: 30px;
+   background-color: black;
+   color: white;
+   
+   
+}
+
+.footer .line-1{
+   margin: 120px;
+}
+
+.footer .line-1 .main{
+   font-size: 1.2rem;
+   color: var(--font-color);
+   font-weight: bold;
+   font-family: "Sofia", sans-serif;
+   
+}
+
+.footer .line-1 p{
+   font-size: 1rem;
+   margin: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* social media */
+
+.social-media{
+   display: flex;
+   width: 260px;
+   /* height: 600px; */
+   margin-left: 650px;
+   margin-top: -300px;
+
+   
+}
+
+.social-media .icon-1{
+   width: 53px;
+   height: 20px;
+   margin-top: 200px;
+
+}
+
+.social-media .icon-1 .you{
+   margin: 5px;
+}
+
+.social-media .icon-1 .pin{
+   margin-left: 3px;
+}
+
+
+.Copyright{
+   margin-left: 570px;
+   margin-top: 50px;
+   font-size: 1.1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #792323;
+}
+span{
+   margin-left: -90px;
+  
+}
+.patel{
+   margin-left: 100px;
+   margin-top: 60px;
+   font-size: 20px;
+   
+}
+
+
+
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="a" href="index.html">Home</a></li>
+            <li><a class="a" href="about.html">About</a></li>
+            <li><a class="a" href="services.html">Services</a></li>
+            <li><a class="a" href="work.html">work</a></li>
+            <li><a class="a" href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="need">
+    <h1 class="h1">Need help with professional photography? lets work together </h1>
+        <div class="patel" > 
+         <p>✆ +1 123-090-4040</p>
+         <p>@ successful@ayushipatel.com</p>
+         <p>⟟ XX xxxx indore</p></div> 
+
+    <div class="con"></div>
+    <div class="contact">
+       <form >
+        <h2>Get in touch</h2>
+        <label for="fname"><span>👤</span>Full name :</label>
+        <input type="text" placeholder=" Enter the full name">
+        <br><br>
+        <label for="fname"><span>✉ </span>Email :</label>
+        <input type="text" placeholder="Enter the email">
+        <br><br>
+        <label for="fname"><span>☎ </span>phone :</label>
+        <input type="text" placeholder="Enter the Phone">
+        <br><br>
+        <label for="fname"><span>📌 </span>Address :</label>
+        <input type="text" placeholder="Enter the Address">
+        <br><br>
+        <button>Contact</button>
+        <br><br>
+        </form> 
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+         <div class="line-1">
+          <p class="main">Company</p>
+          
+             <p>About Us</p>
+             <p>Career</p>
+             <p>Blog</p>
+             <p>Contact Us</p>
+           
+          
+         
+         </div>
+      
+         <div  class="line-1">
+          <p class="main">Policies</p>
+      
+          
+             <p>Privicy Policies</p>
+             <p>Terms of Use</p>
+             <p>Secure Shopping</p>
+             <p>Copyright Policy</p>
+         
+         
+         </div>
+      
+      
+      
+         <div  class="line-1">
+          <p class="main">Help</p>
+          
+             <p>Payment</p>
+             <p>Shipping</p>
+             <p>Return</p>
+             <p>FAQ</p>
+         
+         </div>
+      
+      
+          <div  class="line-1">
+             <p class="main">Misc</p>
+             
+                <p>Affilate</p>
+                <p>Sitemap</p>
+             
+             
+          </div>
+        </div>
+      
+        
+          <div class="social-media">
+      
+          
+      
+            <div class="icon-1">
+               <a href="">
+                  <img src="https://img.icons8.com/?size=48&id=lRtQAp17Ei7V&format=gif" alt="" width="40px" height="45px">
+               </a>
+            </div>
+      
+            <div class="icon-1">
+               <a href=""><img src="https://img.icons8.com/?size=48&id=ZRiAFreol5mE&format=gif" alt="" width="40px" height="45px"></a></icon-1>
+            </div>
+            
+            <div class="icon-1"><a href=""><img class="pin" src="https://img.icons8.com/?size=48&id=dC4Zi1OIaLOF&format=gif" alt="" width="40px" height="45px"></a></div>
+      
+      
+            
+            <div class="icon-1"><a href=""><img class="you" src="https://img.icons8.com/?size=48&id=GNvM541FBQu7&format=gif" alt="" height="40px" width="45px"></a></div>
+            <div class="icon-1">
+               <a href="">
+                  <img src="https://img.icons8.com/?size=48&id=QkXeKixybttw&format=gif" alt="facebbok icon" width="40px" height="48px">
+               </a>
+            </div>
+         
+         </div>
+      
+      
+      
+      
+         <div class="Copyright">
+            <p> Copyright &copy; 2023.photography.com.All Rights Reserved.</p>
+           
+         </div>
+      </footer>
+      
+
+</body>
+</html>
